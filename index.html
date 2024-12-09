@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/styles.css" />
+    <title>Email</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="filter-controls" class="filter">
+        <p>Filterd By</p>
+        <button id="filter-unread" class="filter-button active">Unread</button>
+        <button id="filter-read" class="filter-button">Read</button>
+        <button id="filter-favorites" class="filter-button">Favorites</button>
+      </nav>
+    </header>
+    <main>
+      <div id="email-container" class="email-container">
+        <section id="email__list"></section>
+
+        <section id="email-details" class="email-details"></section>
+      </div>
+
+      <!-- <div id="pagination">
+        <button data-page="1">Page 1</button>
+        <button data-page="2">Page 2</button>
+    </div> -->
+    </main>
+    <script type="module" src="js/main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script type="module" src="js/fonts.js"></script> -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");</style
+    >;
+  </body>
+</html>

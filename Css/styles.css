@@ -52,7 +52,7 @@ p {
 #email__list {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   flex-direction: column;
   gap: 0.5rem;
   /* width: 100%; */
@@ -215,3 +215,28 @@ time {
   background-color: var(--filter-button-color);
   border-radius: 1rem;
 }
+#pagination{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: 0.1rem;
+}
+#pagination button {
+  color: var(--text-color);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid var(--border-color);
+  margin: 0 4px;
+}
+
+#pagination button.active {
+  background-color: var(--accent-color);
+  color: white;
+  border: 1px solid var(--background-color);
+}
+
+#pagination button:hover:not(.active) {background-color: var(--background-color);}

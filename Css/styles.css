@@ -21,6 +21,7 @@ body {
 header {
   color: var(--text-color);
   font-size: 0.8rem;
+  
 }
 p {
   font-size: 0.9rem;
@@ -31,6 +32,7 @@ p {
   margin: 0 0.5rem;
 }
 .filter {
+
   padding: 1rem 3rem;
   display: flex;
   align-items: center;
